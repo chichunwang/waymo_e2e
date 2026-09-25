@@ -1,0 +1,12 @@
+.venv/
+.venv-ubuntu/
+.bootstrap/
+.tools/
+__pycache__/
+.ipynb_checkpoints/
+data/*
+!data/.gitkeep
+outputs/*
+!outputs/.gitkeep
+*.egg-info/
+.env

@@ -1,0 +1,8 @@
+services:
+  waymo:
+    build: .
+    ports:
+      - "127.0.0.1:8888:8888"
+    volumes:
+      - .:/workspace
+    shm_size: "2gb"

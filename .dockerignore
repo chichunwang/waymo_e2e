@@ -1,0 +1,8 @@
+.venv
+.venv-ubuntu
+.bootstrap
+.tools
+.git
+data
+outputs
+__pycache__
