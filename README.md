@@ -1,5 +1,7 @@
 # Waymo 2025 Vision-based End-to-End Driving
 
+第一次接觸挑戰請閱讀 [Waymo E2E Challenge 入門手冊](GETTING_STARTED.zh-TW.md)，了解資料、模型輸入輸出、基準線、評估與提交流程。環境安裝另見 [Ubuntu 操作附錄](UBUNTU_SETUP.zh-TW.md)。
+
 本專案對應 https://waymo.com/intl/zh-tw/open/challenges/2025/e2e-driving/ 。
 模型以相機影像、歷史狀態及路線資訊預測未來 5 秒軌跡，4 Hz，共 `(20, 2)` 個 XY 座標；第一點為未來 0.25 秒。
 
